@@ -12,7 +12,7 @@
 3. **Trigonométrica a polar.** Implementa la _función_ **polar** que, dado un número complejo en formato trigonométrico, nos devuelve el mismo número complejo en forma polar. Para definir exactamente el ángulo, hace falta estudiar el signo de a y b y determinar el cuadrante en el que se encuentra (como si fuera una coordenada en el plano). En Ada existe la biblioteca _Ada.Numerics.Elementary_Functions_ que ofrece la arcotangente ($\arctan$).
   ```math
     \begin{equation*}
-      modulo = \left|\sqrt{a^2 + b^2}\right|,  \\
+      modulo = \left|\sqrt{a^2 + b^2}\right| \qquad
       argumento = \begin{cases}
         \arctan\left(\frac{b}{a}\right) & \text{si } a > 0 \text{ y } b > 0 \\
         2\pi + \arctan\left(\frac{b}{a}\right) & \text{si } a > 0 \text{ y } b < 0 \\
