@@ -5,7 +5,7 @@
 2. **Polar a trigonométrica.** Implementa la _función_ **trigon** que, dado un número complejo en formato polar, nos devuelve el mismo número complejo en forma trigonométrica según las fórmulas que aparecen más abajo. En Ada existe la biblioteca _Ada.Numerics.Elementary_Functions_ que ofrece el seno ($\sin$), el coseno ($\cos$).
   ```math
   \begin{align}
-    b = modulo \sin(argumento) \\
+    b = modulo \sin(argumento) \
     a = modulo \cos(argumento)
   \end{align}
   ```
@@ -14,11 +14,11 @@
     \begin{equation*}
       modulo = \left|\sqrt{a^2 + b^2}\right| \qquad
       argumento = \begin{cases}
-        \arctan\left(\frac{b}{a}\right) & \text{si } a > 0 \text{ y } b > 0 \\
-        2\pi + \arctan\left(\frac{b}{a}\right) & \text{si } a > 0 \text{ y } b < 0 \\
-        \pi + \arctan\left(\frac{b}{a}\right) & \text{si } a < 0 \\
-        \frac{\pi}{2} & \text{si } a = 0 \text{ y } b > 0 \\
-        \frac{3\pi}{2} & \text{si } a = 0 \text{ y } b < 0 \\
+        \arctan\left(\frac{b}{a}\right) & \text{si } a > 0 \text{ y } b > 0 \
+        2\pi + \arctan\left(\frac{b}{a}\right) & \text{si } a > 0 \text{ y } b < 0 \
+        \pi + \arctan\left(\frac{b}{a}\right) & \text{si } a < 0 \
+        \frac{\pi}{2} & \text{si } a = 0 \text{ y } b > 0 \
+        \frac{3\pi}{2} & \text{si } a = 0 \text{ y } b < 0 \
         0 & \text{si } a = 0 \text{ y } b = 0
        \end{cases}
     \end{equation*}
